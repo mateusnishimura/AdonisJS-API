@@ -104,6 +104,8 @@ export default class SalasController {
         }
 
         sala.students -= 1
+      if(sala.students < sala.max_capacity)
+            sala.avaliability = true
         const {name} = await Database.from('users').where('id', matricula).select('name').first()
         const aula = await Database.from('aulas').where('name', name).where('num_sala', num_sala).delete()
 
