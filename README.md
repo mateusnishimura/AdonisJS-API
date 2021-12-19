@@ -1,8 +1,5 @@
-# DesafioClicksoft
+# AdonisJS API
 API em Node.js utilizando AdonisJS para o controle da alocação de salas para alunos e professores pelas universidades/alunos.
-
-Para clonar o repositório:
-`$ git clone https://github.com/mateusnishimura/DesafioClicksoft.git`
 
 Para a instalação das dependências do projeto:
 `$ yarn`
